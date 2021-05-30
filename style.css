@@ -1,0 +1,31 @@
+body {
+    box-sizing: border-box;
+    padding: 30px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ecf0f3;
+}
+
+.btn {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease all;
+    color: white;
+}
+.btn-success {
+    background: green;
+}
+.btn-danger {
+    background: red;
+}
+.btn-ready{
+    background: orange;
+}
